@@ -10,7 +10,7 @@ This function resets a counter. When a counter is reset, it stops running, all i
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The handle of the board to operate on |
+| DSCB  | The handle of the board to operate on |
 | ctrno | Counter number to reset |
 {% endtab %}
 {% endtabs %}

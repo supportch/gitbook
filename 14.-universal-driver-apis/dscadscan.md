@@ -10,9 +10,9 @@ Performs a single A/D conversion on each channel in the selected channel range. 
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| Board | The handle of the board to operate on |
-| Dscadscan | The A/D scan settings to be used |
-| sample\_values | Pointer to an array or allocated memory for holding the scan values. |
+| DSCB  | The handle of the board to operate on |
+| [DSCADSCAN](../15.-structure-definitions/dscadscan.md) | The A/D scan settings to be used |
+| DSCSAMPLE | Pointer to an array or allocated memory for holding the scan values. |
 {% endtab %}
 {% endtabs %}
 

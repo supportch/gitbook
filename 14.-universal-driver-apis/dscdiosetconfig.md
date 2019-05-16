@@ -12,7 +12,7 @@ Note: See board user manual or 82C55 datasheet \(if applicable\) for config\_byt
 {% tab title="Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| Board | The handle of the board to operate on |
+| DSCB  | The handle of the board to operate on |
 | config\_bytes | The value\(s\) used to configure the digital I/O ports. See each board's user manual for information on the number and definition of the configuration bytes. |
 {% endtab %}
 {% endtabs %}

@@ -10,8 +10,8 @@ Sets the A/D configuration for scan settings.
 {% tab title="Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| Board | The handle of the board to operate on |
-| Dscadscan | The A/D scan settings to be used |
+| DSCB  | The handle of the board to operate on |
+| [DSCADSCAN](../15.-structure-definitions/dscadscan.md) | The A/D scan settings to be used |
 {% endtab %}
 {% endtabs %}
 

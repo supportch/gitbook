@@ -10,7 +10,7 @@ Receives a bit value from a given digital input port at a specified bit location
 {% tab title="Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The handle of the board to operate on |
+| DSCB  | The handle of the board to operate on |
 | port | Selected input port |
 | bit | Bit location \(0-7\) to read on the selected input port |
 | digital\_value | Present value of the bit read; 1 or 0 |

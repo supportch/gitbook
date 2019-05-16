@@ -10,7 +10,7 @@ This function configures the board for simultaneous update or regular single-cha
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The handle of the board to operate on |
+| DSCB | The handle of the board to operate on |
 | sim | 0 = single-channel update mode, 1 = simultaneous update mode |
 {% endtab %}
 {% endtabs %}

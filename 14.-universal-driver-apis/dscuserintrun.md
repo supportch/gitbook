@@ -10,8 +10,8 @@ This function is used to start user interrupts when they are running in Alone mo
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The handle of the board to operate on |
-| dscuserint | Structure containing configuration information for the user interrupt operation |
+| DSCB  | The handle of the board to operate on |
+| [DSCUSERINT](../15.-structure-definitions/dscuserint.md) | Structure containing configuration information for the user interrupt operation |
 {% endtab %}
 {% endtabs %}
 

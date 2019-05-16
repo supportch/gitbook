@@ -10,7 +10,7 @@ This function pauses A/D interrupts by turning off the interrupt enable and stop
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The handle of the board to operate on |
+| DSCB  | The handle of the board to operate on |
 {% endtab %}
 {% endtabs %}
 

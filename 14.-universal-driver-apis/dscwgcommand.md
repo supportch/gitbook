@@ -14,7 +14,7 @@ Commands to start, stop, reset, and trigger the D/A wave form generator
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The handle of the board to operate on |
+| DSCB  | The handle of the board to operate on |
 | cmd | Command to stop, start, reset, and trigger D/A wave form generator. Defines can be found in DSCUD.H as WG\_CMD\_XXX |
 {% endtab %}
 {% endtabs %}

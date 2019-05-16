@@ -11,22 +11,11 @@ Performs an A/D auto-calibration on a selected A/D range or on all A/D ranges. V
 | **Name** | **Description** |
 | :--- | :--- |
 |  DSCB | The handle of the board to operate on |
-| DSCADCALPARAMS | The A/D calibration settings to be used in the auto-calibration process. See the definition of DSCADCALPARAMS. |
+| [DSCADCALPARAMS](../15.-structure-definitions/dscadcalparams.md) | The A/D calibration settings to be used in the auto-calibration process. See the definition of DSCADCALPARAMS. |
 {% endtab %}
 {% endtabs %}
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Return Value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p></p>
-        <p>Error code or 0.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Return Value |
+| :--- |
+| Error code or 0. |
+

@@ -10,7 +10,7 @@ Sends a BYTE to a given digital output port.
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| Board | The handle of the board to operate on |
+| DSCB  | The handle of the board to operate on |
 | Port | Selected output port |
 | digital\_value | The value to write to the digital output port; range is 0-255 |
 {% endtab %}

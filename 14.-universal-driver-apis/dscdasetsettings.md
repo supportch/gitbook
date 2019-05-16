@@ -12,8 +12,8 @@ This function is ONLY supported by the Hercules II EBX, Helios and DS-MPE-DAQ080
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The handle of the board to operate on |
-| dasettings | The D/A conversion settings to be used in subsequent D/A conversions; these settings will be used for all D/A conversions. |
+| DSCB  | The handle of the board to operate on |
+| [DSCDASETTINGS](../15.-structure-definitions/dscdasettings.md) | The D/A conversion settings to be used in subsequent D/A conversions; these settings will be used for all D/A conversions. |
 {% endtab %}
 {% endtabs %}
 

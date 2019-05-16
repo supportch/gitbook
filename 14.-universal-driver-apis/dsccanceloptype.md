@@ -10,7 +10,7 @@ Terminates a currently running interrupt operation on the board based on int\_ty
 {% tab title="Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The handle of the board to operate on |
+| DSCB  | The handle of the board to operate on |
 | int\_type | The interrupt type \(one of INTTYPE\*\) to cancel |
 {% endtab %}
 {% endtabs %}

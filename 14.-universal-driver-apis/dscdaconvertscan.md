@@ -10,8 +10,8 @@ Performs a set of D/A conversions on multiple target channels.
 {% tab title="Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The handle of the board to operate on |
-| dscdacs | The D/A conversion scan settings to be used; see definition on page |
+| DSCB  | The handle of the board to operate on |
+| [DSCDACS](../15.-structure-definitions/dscdacs.md) | The D/A conversion scan settings to be used; see definition on page |
 {% endtab %}
 {% endtabs %}
 

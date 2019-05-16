@@ -10,7 +10,7 @@ This function disables the watchdog timer circuit on the specified board. A prev
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The board handle |
+| DSCB  | The board handle |
 {% endtab %}
 {% endtabs %}
 

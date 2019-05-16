@@ -12,7 +12,7 @@ Some boards \(Diamond-MM, Diamond-MM-AT, Diamond-MM-16-AT, Opal-MM, Pearl-MM, Qu
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| Board | The handle of the board to operate on |
+| DSCB  | The handle of the board to operate on |
 | Port | Selected output port |
 | Bit | Bit location \(0-7\) to write on the selected input port |
 | bit\_value | Value to write to the bit; 1 or 0 |

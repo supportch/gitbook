@@ -10,7 +10,7 @@ This function is used to clear \(reset\) a PWM circuit on the Hercules-EBX. Plea
 {% tab title="Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The board handle |
+| DSCB  | The board handle |
 | pwmCircuit | Which PWM circuit \(0-3\) to reset. |
 {% endtab %}
 {% endtabs %}

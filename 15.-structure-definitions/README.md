@@ -4,7 +4,11 @@ Here are the list of structures
 
 * [DSCAACSTATUS](dscaacstatus.md) 
 * [DSCADCALPARAMS](dscadcalparams.md) 
+* [DSCADINTSTATUS](dscadintstatus.md)
 * [DSCADSCAN](dscadscan.md) 
+* \*\*\*\*[DSCADSETTINGS](dscadsettings.md)
+* [DSCAIOINT](dscaioint.md)
+* [DSCAUTOCAL](dscautocal.md)
 * [DSCCB ](dsccb.md)
 * [DSCCBP](dsccbp.md) 
 * [DSCCR](dsccr.md) 
@@ -29,7 +33,7 @@ Here are the list of structures
 * [DSCUSERINTFUNCTION](dscuserintfunction.md) 
 * [DSCWATCHDOG](dscwatchdog.md) 
 * [DSCWGCONFIG](dscwgconfig.md) 
-* [ERRPARAMS](errparams.md)
+* _\*\*\*\*_[ERRPARAMS](errparams.md)
 
  
 

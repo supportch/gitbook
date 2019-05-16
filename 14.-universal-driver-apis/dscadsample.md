@@ -10,8 +10,8 @@ Performs a single A/D conversion on the currently selected channel. The function
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The handle of the board to operate on |
-| sample | The sample resulting from the A/D conversion; the range of return values depends on the type of A/D board. |
+| DSCB | The handle of the board to operate on |
+| DSCSAMPLE | The sample resulting from the A/D conversion; the range of return values depends on the type of A/D board. |
 {% endtab %}
 {% endtabs %}
 

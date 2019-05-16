@@ -11,7 +11,7 @@ This function returns the interrupt routine status including running or not runn
 | **Name** | **Description** |
 | :--- | :--- |
 | DSCB | The handle of the board to operate on |
-| DSCADINTSTATUS | The A/D interrupt status such as interrupt routine, number of conversions, cycle mode, FIFO status and FIFO flags can be determined. |
+| [DSCADINTSTATUS](../15.-structure-definitions/dscadintstatus.md) | The A/D interrupt status such as interrupt routine, number of conversions, cycle mode, FIFO status and FIFO flags can be determined. |
 {% endtab %}
 {% endtabs %}
 

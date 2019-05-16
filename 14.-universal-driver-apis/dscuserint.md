@@ -10,9 +10,9 @@ Starts execution of a user interrupt function alone \(without another driver int
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The handle of the board to operate on |
-| dscuserint | Structure containing configuration information for the user interrupt operation |
-| func | The name of the user interrupt function |
+| DSCB | The handle of the board to operate on |
+| [DSCUSERINT](../15.-structure-definitions/dscuserint.md) | Structure containing configuration information for the user interrupt operation |
+| DSCUserInterruptFunction  | The name of the user interrupt function |
 {% endtab %}
 {% endtabs %}
 

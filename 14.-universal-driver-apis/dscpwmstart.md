@@ -10,8 +10,8 @@ This function is used to start a PWM circuit on the MPE-GPIO. Please consult the
 {% tab title="Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The board handle |
-| pwmCircuit | Pointer to the DSCPWM struct containing the PWM parameters |
+| DSCB  | The board handle |
+| [DSCPWM ](../15.-structure-definitions/dscpwm.md) | Pointer to the DSCPWM struct containing the PWM parameters |
 {% endtab %}
 {% endtabs %}
 

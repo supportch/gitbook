@@ -16,7 +16,7 @@ In a typical application, dscWatchdogTrigger\(\) is used in a continuous loop to
 {% tab title=" Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The board handle |
+| DSCB  | The board handle |
 {% endtab %}
 {% endtabs %}
 

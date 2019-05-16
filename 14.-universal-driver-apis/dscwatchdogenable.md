@@ -10,7 +10,7 @@ This function loads the watchdog counters to the specified values and configures
 {% tab title="Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The board handle |
+| DSCB  | The board handle |
 | wd1 | Counter value for first watchdog timer |
 | wd2 | Counter value for second watchdog timer |
 | options | A bitwise OR of watchdog options |

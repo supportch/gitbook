@@ -2,7 +2,7 @@
 
 Structure containing error code information resulting from a Universal Driver function call. An error code is generated as the return value by each driver function.
 
-### Structure Definition
+### Structure Definition 
 
 ```c
 typedef struct {

@@ -10,7 +10,7 @@ This function resumes A/D interrupts from the point at which they were paused.
 {% tab title="Input Parameters" %}
 | **Name** | **Description** |
 | :--- | :--- |
-| board | The handle of the board to operate on |
+| DSCB  | The handle of the board to operate on |
 {% endtab %}
 {% endtabs %}
 

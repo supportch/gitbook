@@ -11,22 +11,13 @@ Verifies the accuracy of the most recent A/D autocalibration process and returns
 | **Name** | **Description** |
 | :--- | :--- |
 | DSCB | The handle of the board to operate on |
-| DSCADCALPARAMS | The A/D calibration settings to be used in the verification process |
+| [DSCADCALPARAMS](../15.-structure-definitions/dscadcalparams.md) | The A/D calibration settings to be used in the verification process |
 {% endtab %}
 {% endtabs %}
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Return Value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p></p>
-        <p>Error code or 0.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Return Value |
+| :--- |
+| Error code or 0. |
+
+
+
