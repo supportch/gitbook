@@ -1,57 +1,102 @@
-> ## ⚠️ Deprecation warning:
-> As the efforts of the GitBook team are focused on the [GitBook.com](https://www.gitbook.com) platform, the CLI is no longer under active development.  
-> All content supported by the CLI are mostly supported by our [GitBook.com / GitHub integration](https://docs.gitbook.com/integrations/github).  
-> Content hosted on the [legacy.gitbook.com](https://legacy.gitbook.com) will continue working until further notice. For differences with the new vesion, check out our [documentation](https://docs.gitbook.com/v2-changes/important-differences).
+# Universal Driver Software User Manual
+
+## [1. Introduction](1.-introduction/)
+
+     ****[1.1 Demo Programs and Utilities](1.-introduction/1.1.-demo-programs-and-utilities.md)
+
+     ****[1.2 Overview of Manual](1.-introduction/1.2.-overview-of-manual.md)
+
+## [2. General programming guidelines](2.-general-programming-guidelines/)
+
+   ****[  ****2.1 ISA Initialization and Exit Function Calls](2.-general-programming-guidelines/2.1-isa-initialization-and-exit-function-calls.md)
+
+    **** [2.2 PCI Initialization and Exit Function Calls](2.-general-programming-guidelines/untitled.md)
+
+     [2.3 Error Handling](2.-general-programming-guidelines/2.3.-error-handling.md)
+
+## [3. Common Task Reference ](3.-common-task-reference/)
+
+     ****[3.1 Performing an AD Conversion ](3.-common-task-reference/3.1.-performing-an-ad-conversion.md)
+
+     [3.2 Performing an AD Scan ](3.-common-task-reference/3.2.-performing-an-ad-scan.md)
+
+     ****[3.3 Interrupt-Based AD Sample or Scan ](3.-common-task-reference/3.3.-interrupt-based-ad-sample-or-scan.md)
+
+     [3.4 Performing a DA Conversion ](3.-common-task-reference/3.4.-performing-a-da-conversion.md)
+
+     [3.5 Performing a DA Conversion Scan ](3.-common-task-reference/3.5-performing-a-da-conversion-scan.md)
+
+     [3.6 Interrupt-Based DA Conversion Scan ](3.-common-task-reference/3.6-interrupt-based-da-conversion-scan.md)
+
+     [3.7 Performing Digital IO Operations ](3.-common-task-reference/3.7-performing-digital-io-operations.md)
+
+     [3.8 Checking Interrupt Operation Status](3.-common-task-reference/3.8-checking-interrupt-operation-status.md) 
+
+     [3.9 Performing an AD Autocalibration ](3.-common-task-reference/3.9-performing-an-ad-autocalibration.md)
+
+     [3.10 Performing a DA Autocalibration ](3.-common-task-reference/3.10-performing-a-da-autocalibration.md)
+
+     [3.11 AD Calibration Verification ](3.-common-task-reference/3.11-ad-calibration-verification.md)
+
+     [3.12 DA Calibration Verification ](3.-common-task-reference/3.12-da-calibration-verification.md)
+
+## [4. Interrupt-Based Operations ](4.-interrupt-based-operations/)
+
+     [4.1 AD Interrupt Operations](4.-interrupt-based-operations/4.1.-ad-interrupt-operations/)
+
+     [4.2 DA Interrupt Operations](4.-interrupt-based-operations/4.2-bda-interrupt-operations.md)
+
+     [4.3 AD Interrupt Mode Reference](4.-interrupt-based-operations/4.3-ad-interrupt-mode-reference.md)
+
+## [5. User Interrupts](5.-user-interrupts/)
+
+     [5.1 User Interrupt Types](5.-user-interrupts/5.1-user-interrupt-types.md)
+
+     [5.2 The User Interrupt Function Interface](5.-user-interrupts/5.2-the-user-interrupt-function-interface.md)
+
+     [5.3 Create a User Interrupt Function](5.-user-interrupts/5.3-create-a-user-interrupt-function.md)
+
+     [5.4 Instructions for After and Instead Type User Interrupts](5.-user-interrupts/5.4-instructions-for-after-and-instead-type-user-interrupts.md)
+
+     [5.5 Instructions for Solo Type User Interrupts](5.-user-interrupts/5.5-instructions-for-solo-type-user-interrupts/)
+
+     [5.6 Board-Specific Information for Solo Type User Interrupts](5.-user-interrupts/5.6-board-specific-information-for-solo-type-user-interrupts.md)
+
+## [6. Watchdog Timer](untitled/)
+
+     [6.1 Watchdog Timer API](untitled/6.1-watchdog-timer-api/)
+
+     [6.2 Application Instructions](untitled/6.2-application-instructions.md)
+
+## [7. UD Function Reference](7.-ud-function-reference.md)
+
+## [8. Data Type Reference](8.-data-type-reference.md)
+
+## [9. Board Reference](9.-board-reference/)
+
+     [9.1 Board Function Lists](9.-board-reference/9.1-board-function-lists.md)
+
+     [9.2 Analog IO Ranges](9.-board-reference/9.2-analog-io-ranges.md)
+
+     [9.3. Detailed Board Information](9.-board-reference/9.3.-detailed-board-information.md)
+
+## [10. Example Programs](10.-example-programs.md)
+
+## [11. Error Codes](11.-error-codes.md)
+
+## [12. Board Macros](12.-board-macros.md)
+
+## [13. Index](13.-index.md)
+
+## [14. Universal Driver APIs](14.-universal-driver-apis/)
+
+## [15. Structure definitions](15.-structure-definitions/)
 
 
-GitBook
-=======
 
-[![NPM version](https://badge.fury.io/js/gitbook.svg)](http://badge.fury.io/js/gitbook)
-[![Linux Build Status](https://travis-ci.org/GitbookIO/gitbook.png?branch=master)](https://travis-ci.org/GitbookIO/gitbook)
-[![Windows Build status](https://ci.appveyor.com/api/projects/status/63nlflxcwmb2pue6?svg=true)](https://ci.appveyor.com/project/GitBook/gitbook)
-[![Slack Status](https://slack.gitbook.com/badge.svg)](https://slack.gitbook.com)
 
-GitBook is a command line tool (and Node.js library) for building beautiful books using GitHub/Git and Markdown (or AsciiDoc). Here is an example: [Learn Javascript](https://legacy.gitbook.com/book/GitBookIO/javascript).
 
-You can publish and host books easily online using [gitbook.com](https://legacy.gitbook.com). A desktop editor is [also available](https://legacy.gitbook.com/editor).
 
-Stay updated by following [@GitBookIO](https://twitter.com/GitBookIO) on Twitter or [GitBook](https://www.facebook.com/gitbookcom) on Facebook.
 
-Complete documentation is available at [toolchain.gitbook.com](http://toolchain.gitbook.com/).
 
-![Image](https://raw.github.com/GitbookIO/gitbook/master/preview.png)
 
-## Getting started
-
-GitBook can be used either on your computer for building local books or on legacy.gitbook.com for hosting them. To get started, check out [the installation instructions in the documentation](docs/setup.md).
-
-## Usage examples
-
-GitBook can be used to create book, public documentation, enterprise manual, thesis, research papers, etc.
-
-You can find a [list of real-world examples](docs/examples.md) in the documentation.
-
-## Help and Support
-
-We're always happy to help out with your books or any other questions you might have. You can ask a question on the following contact form at [gitbook.com/contact](https://legacy.gitbook.com/contact) or signal an issue on [GitHub](https://github.com/GitbookIO/gitbook).
-
-## Features
-
-* Write using [Markdown](http://toolchain.gitbook.com/syntax/markdown.html) or [AsciiDoc](http://toolchain.gitbook.com/syntax/asciidoc.html)
-* Output as a website or [ebook (pdf, epub, mobi)](http://toolchain.gitbook.com/ebook.html)
-* [Multi-Languages](http://toolchain.gitbook.com/languages.html)
-* [Lexicon / Glossary](http://toolchain.gitbook.com/lexicon.html)
-* [Cover](http://toolchain.gitbook.com/ebook.html)
-* [Variables and Templating](http://toolchain.gitbook.com/templating/)
-* [Content References](http://toolchain.gitbook.com/templating/conrefs.html)
-* [Plugins](http://toolchain.gitbook.com/plugins/)
-* [Beautiful default theme](https://github.com/GitbookIO/theme-default)
-
-## Publish your book
-
-The platform [legacy.gitbook.com](https://legacy.gitbook.com/) is like an "Heroku for books": you can create a book on it (public, or private) and update it using **git push**.
-
-## Licensing
-
-GitBook is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full license text.
