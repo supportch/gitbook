@@ -4,8 +4,6 @@ Structure containing error code information resulting from a Universal Driver fu
 
 ### Structure Definition 
 
-
-
 ```c
 typedef struct {
 
