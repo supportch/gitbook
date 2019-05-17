@@ -50,6 +50,8 @@
     "omit-keys": "^0.1.0",
     "open": "0.0.5",
     "q": "1.4.1",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
     "read-installed": "^4.0.3",
     "request": "2.72.0",
     "resolve": "1.1.7",
