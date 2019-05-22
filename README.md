@@ -86,7 +86,7 @@
 
 ## [12. Board Macros](12.-board-macros.md)
 
-## [13. Index](13.-index.md)
+## [13. Index](13.-index/)
 
 ## [14. Universal Driver APIs](14.-universal-driver-apis/)
 
