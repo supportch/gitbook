@@ -8,51 +8,60 @@ The Aries SBC is based on Intel “Bay Trail” E3800 series processors. The for
 
 ### Board Initialization
 
-To use the Aries board in an appllication using the UD, the dscInitBoard function should use the board macro DSC\_ARIES. This is shown in the example below... The base address should be 0x280 and the default IRQ to use is IRQ 5. dscInitBoard \(DSC\_ARIES, &dsccb, &board \);
+To use the Aries board in an appllication using the UD, the dscInitBoard function should use the board macro DSC\_ARIES. This is shown in the example below... 
+
+The base address should be 0x280 and the default IRQ to use is IRQ 5. 
+
+```c
+dscInitBoard(DSC_ARIES, &dsccb, &board );
+```
 
 ### Analog Input
 
-Max Input Channels: 16 \(single-ended\) or 8 \(differential\) 
-
-A/D Resolution: 16 bits \(1/65536 of full-scale\) 
-
-Data range: -32768 to +32767 for all voltrage ranges 
-
-Input Ranges \(Bipolar\): ±10V, ±5V, ±2.5V, or ±1.25V 
-
-Input Ranges \(Unipolar\): 0-10V, 0-5V, or 0-2.5V 
-
-Supported Conversion Triggers: Software, External digital signal 
-
-Maximum Conversion Rate: 
-
-Software Command: approx. 250,000 samples per second, depending on code and operating system 
-
-Interrupt Routine w/FIFO: 100,000 samples per second 
-
-FIFO: 2048 samples with Programmable interrupt threshold
+|  |  |
+| :--- | :--- |
+| Max Input Channels: | 16 \(single-ended\) or 8 \(differential\)  |
+| A/D Resolution: | 16 bits \(1/65536 of full-scale\)  |
+| Data range: | -32768 to +32767 for all voltage ranges |
+| Input Ranges \(Bipolar\): | ±10V, ±5V, ±2.5V, or ±1.25V  |
+| Input Ranges \(Unipolar\): | 0-10V, 0-5V, or 0-2.5V  |
+| Supported Conversion Triggers: | Software, External digital signal  |
+| Maximum Conversion Rate \(Software Command\): | approx. 250,000 samples per second, depending on code and operating system |
+| Maximum Conversion Rate \(Interrupt Routine w/FIFO\): | 100,000 samples per second |
+| FIFO: |  2048 samples with Programmable interrupt threshold |
 
 ### Analog Output
 
-Max Output Channels: 4 
-
-D/A Resolution: 15 bits \(1/65536 of full scale\) 
-
-Data range: 0 to 65535 for all voltage ranges 
-
-Bipolar Output Ranges: ±10V, ±5V, ±2.5V 
-
-Unipolar Output Ranges: 0-10V, 0-5V
+|  |  |
+| :--- | :--- |
+| Max Output Channels: | 4 |
+| D/A Resolution: | 15 bits \(1/65536 of full scale\)  |
+| Data range: | 0 to 65535 for all voltage ranges |
+| Bipolar Output Ranges: | ±10V, ±5V, ±2.5V |
+| Unipolar Output Ranges: | 0-10V, 0-5V |
 
 ### Digital I/O
 
-Max Ports: 3, bi-directional, programmable in 8-bit groups.Digital I/O ports on Prometheus require direction to be set with DscDIOSetConfig\(\) before use. 
-
-All DIO lines power-up in input mode and have readback capability. 
-
-All DIO lines have r external configurable pull esistors that can be configured for all pull-up or all pull-down with a jumper.
-
-### Aries Universal Driver Functions
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Max Ports:</td>
+      <td style="text-align:left">
+        <p>3, bi-directional, programmable in 8-bit groups.Digital I/O ports on Prometheus
+          require direction to be set with DscDIOSetConfig() before use.</p>
+        <p>All DIO lines power-up in input mode and have readback capability.</p>
+        <p>All DIO lines have r external configurable pull esistors that can be configured
+          for all pull-up or all pull-down with a jumper.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>###  Aries Universal Driver Functions
 
 * [dscADAutoCal\(\) ](../14.-universal-driver-apis/dscadautocal.md)
 * [dscADCalVerify\(\)](../14.-universal-driver-apis/dscadcalverify.md) 

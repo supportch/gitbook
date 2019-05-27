@@ -19,3 +19,5 @@ Performs an A/D auto-calibration on a selected A/D range or on all A/D ranges. V
 | :--- |
 | Error code or 0. |
 
+
+
