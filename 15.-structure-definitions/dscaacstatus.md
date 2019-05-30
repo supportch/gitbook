@@ -18,11 +18,11 @@ typedef struct {
 
 ### Structure Members
 
-| Name | Description |
-| :--- | :--- |
-| pic\_present | TRUE if PIC device is present, FALSE otherwise |
-| pic\_busy | TRUE if PIC device is busy with an operation, FALSE otherwise |
-| aac\_hold | TRUE if AAC Hold-Off is enabled, FALSE otherwise |
-| aac\_error | TRUE if the last AAC command has failed, FALSE otherwise |
-| aac\_active | TRUE if the AAC routing is currently running, FALSE otherwise |
+| Name | Description | Applicable Boards |
+| :--- | :--- | :--- |
+| pic\_present | TRUE if PIC device is present, FALSE otherwise | Diamond-MM-32X-AT, Diamond-MM-32DX-AT |
+| pic\_busy | TRUE if PIC device is busy with an operation, FALSE otherwise | Diamond-MM-32X-AT, Diamond-MM-32DX-AT |
+| aac\_hold | TRUE if AAC Hold-Off is enabled, FALSE otherwise | Diamond-MM-32X-AT, Diamond-MM-32DX-AT |
+| aac\_error | TRUE if the last AAC command has failed, FALSE otherwise | Diamond-MM-32X-AT, Diamond-MM-32DX-AT |
+| aac\_active | TRUE if the AAC routing is currently running, FALSE otherwise | Diamond-MM-32X-AT, Diamond-MM-32DX-AT |
 
