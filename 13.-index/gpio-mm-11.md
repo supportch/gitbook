@@ -58,7 +58,7 @@ Refer to the GPIO-MM-11 user manual for detailed information on the counter and 
 * [dscDIOSetBit\(\) ](../14.-universal-driver-apis/dscdiosetbit.md)
 * [dscGetEEPROM\(\) ](../14.-universal-driver-apis/dscgeteeprom.md)
 * [dscGetStatus\(\) ](../14.-universal-driver-apis/dscgetstatus.md)
-* dscInterruptControl\(\) 
+* [dscInterruptControl\(\) ](../14.-universal-driver-apis/dscinterruptcontrol.md)
 * [dscSetEEPROM\(\) ](../14.-universal-driver-apis/dscseteeprom.md)
 * [dscSetUserInterruptFunction\(\) ](../14.-universal-driver-apis/dscsetuserinterruptfunction.md)
 * [dscUserInt\(\)](../14.-universal-driver-apis/dscuserint.md)
