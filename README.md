@@ -26,7 +26,7 @@
 
      [3.5 Performing a DA Conversion Scan ](3.-common-task-reference/3.5-performing-a-da-conversion-scan.md)
 
-     [3.6 Interrupt-Based DA Conversion Scan ](3.-common-task-reference/3.6-interrupt-based-da-conversion-scan.md)
+     [3.6 Interrupt-Based DA Conversion Scan ]()
 
      [3.7 Performing Digital IO Operations ](3.-common-task-reference/3.7-performing-digital-io-operations.md)
 
