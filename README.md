@@ -26,27 +26,23 @@
 
      [3.5 Performing a DA Conversion Scan ](3.-common-task-reference/3.5-performing-a-da-conversion-scan.md)
 
-     [3.6 Interrupt-Based DA Conversion Scan ]()
+     [3.6 Performing Digital IO Operations ](3.-common-task-reference/3.7-performing-digital-io-operations.md)
 
-     [3.7 Performing Digital IO Operations ](3.-common-task-reference/3.7-performing-digital-io-operations.md)
+     [3.7 Checking Interrupt Operation Status](3.-common-task-reference/3.8-checking-interrupt-operation-status.md) 
 
-     [3.8 Checking Interrupt Operation Status](3.-common-task-reference/3.8-checking-interrupt-operation-status.md) 
+     [3.8 Performing an AD Autocalibration ](3.-common-task-reference/3.9-performing-an-ad-autocalibration.md)
 
-     [3.9 Performing an AD Autocalibration ](3.-common-task-reference/3.9-performing-an-ad-autocalibration.md)
+     [3.9 Performing a DA Autocalibration ](3.-common-task-reference/3.10-performing-a-da-autocalibration.md)
 
-     [3.10 Performing a DA Autocalibration ](3.-common-task-reference/3.10-performing-a-da-autocalibration.md)
+     [3.10 AD Calibration Verification ](3.-common-task-reference/3.11-ad-calibration-verification.md)
 
-     [3.11 AD Calibration Verification ](3.-common-task-reference/3.11-ad-calibration-verification.md)
-
-     [3.12 DA Calibration Verification ](3.-common-task-reference/3.12-da-calibration-verification.md)
+     [3.11 DA Calibration Verification ](3.-common-task-reference/3.12-da-calibration-verification.md)
 
 ## [4. Interrupt-Based Operations ](4.-interrupt-based-operations/)
 
      [4.1 AD Interrupt Operations](4.-interrupt-based-operations/4.1.-ad-interrupt-operations/)
 
-     [4.2 DA Interrupt Operations]()
-
-     [4.3 AD Interrupt Mode Reference](4.-interrupt-based-operations/4.3-ad-interrupt-mode-reference.md)
+     [4.2 AD Interrupt Mode Reference](4.-interrupt-based-operations/4.3-ad-interrupt-mode-reference.md)
 
 ## [5. User Interrupts](5.-user-interrupts/)
 
