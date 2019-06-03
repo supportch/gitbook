@@ -1,4 +1,4 @@
-# Universal Driver Software User Manual
+# Universal Driver 8.1.1 Software User Manual
 
 ## [1. Introduction](1.-introduction/)
 
@@ -91,10 +91,6 @@
 ## [14. Universal Driver APIs](14.-universal-driver-apis/)
 
 ## [15. Structure definitions](15.-structure-definitions/)
-
-
-
-
 
 
 

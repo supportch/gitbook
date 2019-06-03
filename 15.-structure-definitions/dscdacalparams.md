@@ -14,19 +14,18 @@ typedef struct {
     BOOL ch0pol, ch0prog, ch0ext; 
     BOOL ch1pol, ch1prog, ch1ext; 
     FLOAT ref; 
-    BYTE darange_calibrate; 
     
     } DSCDACALPARAMS;
 ```
 
 ### Structure Members
 
-| Name | Description |
-| :--- | :--- |
-| darange | Desired full-scale voltage for custom D/A range setting, in volts. Used only when in Programmable mode, otherwise ignored. Range is anywhere between 1.0 and 10.0 in increments of .001. |
-| offset | Error in D/A LSB counts at the mid-scale of the D/A range |
-| gain | Error in D/A LSB counts at the full-scale \(high end\) of the D/A range |
-| cal\_point | Desired D/A point voltage for custom calibration setting, in volts. Range is anywhere in valid D/A range. |
+| Name | Description | Applicable Boards |
+| :--- | :--- | :--- |
+| darange | Desired full-scale voltage for custom D/A range setting, in volts. Used only when in Programmable mode, otherwise ignored. Range is anywhere between 1.0 and 10.0 in increments of .001. | Diamond-MM-16-AT,Diamond-MM-32X-AT,Diamond-MM-16RP-AT,Diamond-MM-32DX-AT,Diamond-MM-AT |
+| offset | Error in D/A LSB counts at the mid-scale of the D/A range | Diamond-MM-16-AT,Diamond-MM-32X-AT,Diamond-MM-16RP-AT,Diamond-MM-32DX-AT,Diamond-MM-AT |
+| gain | Error in D/A LSB counts at the full-scale \(high end\) of the D/A range | Diamond-MM-16-AT,Diamond-MM-32X-AT,Diamond-MM-16RP-AT,Diamond-MM-32DX-AT,Diamond-MM-AT |
+| cal\_point | Desired D/A point voltage for custom calibration setting, in volts. Range is anywhere in valid D/A range. | Diamond-MM-32DX-AT |
 
 The following parameters are used only on Diamond-MM-AT. This board has independent D/A settings for each analog output channel. The parameters below correspond to the jumper settings on the board.
 

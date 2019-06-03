@@ -19,3 +19,5 @@ This function resets a counter. When a counter is reset, it stops running, all i
 | :--- |
 | Error code or 0. |
 
+
+

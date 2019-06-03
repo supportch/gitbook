@@ -32,9 +32,9 @@ dscInitBoard( DSC_GPIO21 , &dsccb, &board );
   </tbody>
 </table>### GPIO-MM-21 Universal Driver Functions
 
-* dscDIOInputBit\(\) 
-* dscDIOInputByte\(\) 
-* dscDIOOutputBit\(\) 
-* dscDIOOutputByte\(\) 
-* dscDIOSetConfig\(\)
+* [dscDIOInputBit\(\) ](../14.-universal-driver-apis/dscdioinputbit.md)
+* [dscDIOInputByte\(\) ](../14.-universal-driver-apis/dscdioinputbyte.md)
+* [dscDIOOutputBit\(\) ](../14.-universal-driver-apis/dscdiooutputbit.md)
+* [dscDIOOutputByte\(\) ](../14.-universal-driver-apis/dscdiooutputbyte.md)
+* [dscDIOSetConfig\(\)](../14.-universal-driver-apis/dscdiosetconfig.md)
 

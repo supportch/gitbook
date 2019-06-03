@@ -7,7 +7,7 @@ Structure containing error code information resulting from a Universal Driver fu
 ```c
 typedef struct {
 
-    BYTE errcode;
+    BYTE ErrCode;
     char* errstring;
 
 } ERRPARAMS;
@@ -15,8 +15,8 @@ typedef struct {
 
 ### Structure Members
 
-| Name | Description |
-| :--- | :--- |
-| errcode | The error code representing the particular error |
-| errstring | The string description corresponding to the error code in ErrCode |
+| Name | Description | Applicable Boards |
+| :--- | :--- | :--- |
+| ErrCode | The error code representing the particular error | All boards |
+| errstring | The string description corresponding to the error code in ErrCode | All boards |
 

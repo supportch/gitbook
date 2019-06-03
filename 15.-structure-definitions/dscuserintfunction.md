@@ -34,9 +34,9 @@ typedef struct {
 
 ### Structure Members
 
-| Name | Description |
-| :--- | :--- |
-| func | Pointer to user interrupt function of type DSCUserInterruptFunction |
-| int\_mode | Selects the execution time for the user interrupt function. Select from the choices in the list above. There is no "before" option. |
-| int\_type | Selects the interrupt type to attach this function to \(e.g. A/D interrupts, D/A interrupts, DIO interrupts, etc.\) |
+| Name | Description | Applicable Boards |
+| :--- | :--- | :--- |
+| func | Pointer to user interrupt function of type DSCUserInterruptFunction | Diamond-MM-16-AT,Diamond-MM-16RP-AT,Diamond-MM-32DX-AT,Diamond-MM-32X-AT,Diamond-MM-AT,Onyx-MM |
+| int\_mode | Selects the execution time for the user interrupt function. Select from the choices in the list above. There is no "before" option. | Diamond-MM-16-AT,Diamond-MM-16RP-AT,Diamond-MM-32DX-AT,Diamond-MM-32X-AT,Diamond-MM-AT,Onyx-MM |
+| int\_type | Selects the interrupt type to attach this function to \(e.g. A/D interrupts, D/A interrupts, DIO interrupts, etc.\) | Diamond-MM-16-AT,Diamond-MM-16RP-AT,Diamond-MM-32DX-AT,Diamond-MM-32X-AT,Diamond-MM-AT,Onyx-MM |
 

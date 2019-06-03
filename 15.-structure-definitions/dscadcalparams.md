@@ -19,9 +19,9 @@ typedef struct {
 
 | Name | Description | Applicable Boards |
 | :--- | :--- | :--- |
-| adrange | A/D range to calibrate; if adrange = 255, then all A/D ranges will be calibrated | Diamond-MM-16-AT,Diamond-MM-32X-AT,Diamond-MM-16RP-AT,Diamond-MM-32DX-AT,Diamond-MM-AT |
-| boot\_adrange | A/D range whose calibration settings will be loaded from the EEPROM when the board is first powered on. | Diamond-MM-16-AT,Diamond-MM-32X-AT,Diamond-MM-16RP-AT,Diamond-MM-32DX-AT,Diamond-MM-AT |
-| ad\_offset | The maximum offset error in A/D LSBs resulting from the autocalibration process | Diamond-MM-16-AT,Diamond-MM-32X-AT,Diamond-MM-16RP-AT,Diamond-MM-32DX-AT,Diamond-MM-AT |
-| ad\_gain | The maximum gain error in A/D LSBs resulting from the autocalibration process | Diamond-MM-16-AT,Diamond-MM-32X-AT,Diamond-MM-16RP-AT,Diamond-MM-32DX-AT,Diamond-MM-AT |
-| target\_values\[AD\_MAX\_REFS\_VOLT\] | OUTPUT: Target values read from EEPROM | Diamond-MM-16-AT,Diamond-MM-32X-AT,Diamond-MM-16RP-AT,Diamond-MM-32DX-AT,Diamond-MM-AT |
+| adrange | A/D range to calibrate; if adrange = 255, then all A/D ranges will be calibrated | Diamond-MM-16-AT, Diamond-MM-32X-AT, Diamond-MM-16RP-AT, Diamond-MM-32DX-AT, Diamond-MM-AT |
+| boot\_adrange | A/D range whose calibration settings will be loaded from the EEPROM when the board is first powered on. | Diamond-MM-16-AT, Diamond-MM-32X-AT, Diamond-MM-16RP-AT, Diamond-MM-32DX-AT, Diamond-MM-AT |
+| ad\_offset | The maximum offset error in A/D LSBs resulting from the autocalibration process | Diamond-MM-16-AT, Diamond-MM-32X-AT, Diamond-MM-16RP-AT, Diamond-MM-32DX-AT, Diamond-MM-AT |
+| ad\_gain | The maximum gain error in A/D LSBs resulting from the autocalibration process | Diamond-MM-16-AT, Diamond-MM-32X-AT, Diamond-MM-16RP-AT, Diamond-MM-32DX-AT, Diamond-MM-AT |
+| target\_values\[AD\_MAX\_REFS\_VOLT\] | OUTPUT: Target values read from EEPROM | Diamond-MM-16-AT, Diamond-MM-32X-AT, Diamond-MM-16RP-AT, Diamond-MM-32DX-AT, Diamond-MM-AT |
 

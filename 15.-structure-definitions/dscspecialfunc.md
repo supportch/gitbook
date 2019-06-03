@@ -16,9 +16,9 @@ typedef struct {
 
 ### Structure Members
 
-| Name | Description |
-| :--- | :--- |
-| cmd | Command provided from the user |
-| Data | To read the data from the device |
-| Config | Pull Up/Down configuration value |
+| Name | Description | Applicable Boards |
+| :--- | :--- | :--- |
+| cmd | Command provided from the user | Aries |
+| Data | To read the data from the device | Aries |
+| Config | Pull Up/Down configuration value | DS-MPE-GPIO |
 

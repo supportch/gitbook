@@ -16,11 +16,11 @@ dscInitBoard( DSC_OMMDIO , &dsccb, &board );
 
 ### Onyx-MM-DIO Universal Driver Functions
 
-* dscDIOClearBit\(\) 
-* dscDIOInputBit\(\)
-* dscDIOInputByte\(\) 
-* dscDIOOutputBit\(\) 
-* dscDIOOutputByte\(\) 
-* dscDIOSetBit\(\) 
-* dscDIOSetConfig\(\)
+* [dscDIOClearBit\(\) ](../14.-universal-driver-apis/dscdioclearbit.md)
+* [dscDIOInputBit\(\)](../14.-universal-driver-apis/dscdioinputbit.md)
+* [dscDIOInputByte\(\) ](../14.-universal-driver-apis/dscdioinputbyte.md)
+* [dscDIOOutputBit\(\) ](../14.-universal-driver-apis/dscdiooutputbit.md)
+* [dscDIOOutputByte\(\) ](../14.-universal-driver-apis/dscdiooutputbyte.md)
+* [dscDIOSetBit\(\) ](../14.-universal-driver-apis/dscdiosetbit.md)
+* [dscDIOSetConfig\(\)](../14.-universal-driver-apis/dscdiosetconfig.md)
 
