@@ -135,6 +135,7 @@
   * [dscSetEEPROM](14.-universal-driver-apis/dscseteeprom.md)
   * [dscSetPage](14.-universal-driver-apis/dscsetpage.md)
   * [dscSetReferenceVoltages](14.-universal-driver-apis/dscsetreferencevoltages.md)
+  * [dscSetRelay](14.-universal-driver-apis/dscsetrelay.md)
   * [dscSetUserInterruptFunction](14.-universal-driver-apis/dscsetuserinterruptfunction.md)
   * [dscSpecialFunction](14.-universal-driver-apis/dscspecialfunction.md)
   * [dscUserInt](14.-universal-driver-apis/dscuserint.md)
