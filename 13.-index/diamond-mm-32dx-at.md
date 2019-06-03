@@ -117,7 +117,7 @@ For these functions DMM32X-AT has the following restrictions
 * [dscDIOOutputByte\(\)](../14.-universal-driver-apis/dscdiooutputbyte.md) 
 * [dscDIOSetBit\(\) ](../14.-universal-driver-apis/dscdiosetbit.md)
 * [dscDIOSetConfig\(\) ](../14.-universal-driver-apis/dscdiosetconfig.md)
-* dscEnhancedFeaturesEnble\(\) 
+* [dscEnhancedFeaturesEnble\(\) ](../14.-universal-driver-apis/dscenhancedfeaturesenble.md)
 * [dscGetEEPROM\(\)](../14.-universal-driver-apis/dscgeteeprom.md) 
 * [dscGetReferenceVoltages\(\) ](../14.-universal-driver-apis/dscgetreferencevoltages.md)
 * [dscGetStatus\(\)](../14.-universal-driver-apis/dscgetstatus.md) 
