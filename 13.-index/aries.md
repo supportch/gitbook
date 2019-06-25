@@ -8,7 +8,7 @@ The Aries SBC is based on Intel “Bay Trail” E3800 series processors. The for
 
 ### Board Initialization
 
-To use the Aries board in an appllication using the UD, the dscInitBoard function should use the board macro DSC\_ARIES. This is shown in the example below... 
+To use the Aries board in an application using the UD, the dscInitBoard function should use the board macro DSC\_ARIES. This is shown in the example below... 
 
 The base address should be 0x280 and the default IRQ to use is IRQ 5. 
 
